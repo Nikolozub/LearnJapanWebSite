@@ -1,0 +1,94 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Lora);
+
+
+ul.main_menu {
+    margin: 0 auto; /* Обнуляем значение отступов */
+    padding-left: 0px;
+	list-style: none; /*убираем маркеры списка*/
+	background: #ECDAD6;
+	padding: 1em 0;
+}
+
+ul.main_menu li {
+    display: inline; /* Отображать как строчный элемент */
+    padding: 3px; /* Поля вокруг текста */ 
+	font-family: 'Lora', serif;	
+}
+
+ul.main_menu li a {
+	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+	transition: .5s linear;
+	border-right: 1px solid #b19891;
+	color: #695753;
+	padding: 1em;
+}
+
+ul.main_menu li a:hover {
+	background: #b19891;
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    /*margin: 7px 7px 7px 0;  Отступы вокруг картинки */
+}
+
+.main_header {
+    /*background: #fc0;*/
+	/*display: block;  Для старых браузеров */
+	height: 288px; /* Высота шапки */
+	background: url(/image/header.png) no-repeat center;
+}
+
+.japan_text {
+	font-family: "?????? Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "????", Meiryo, "MS P????", "MS PGothic", sans-serif;
+	font-size: 16pt;
+	white-space: pre-wrap
+}
+
+.plain_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 14pt;
+}
+
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+#footer {
+    /*position: fixed;  Фиксированное положение */
+	position: absolute;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+body {
+	background-color: #efebf0;
+	
+}
+
+.authorization_form { 
+	margin: 0 auto; 
+    width:300px;
+}
+
+textarea
+{
+  width:100%;
+}
+.textwrapper
+{
+  /*border:1px solid #999999;*/
+  margin:5px 0;
+  padding:3px;
+}
